@@ -10,5 +10,5 @@
         $classes .= ' px-3 py-1 text-2xs';
     }
 @endphp
+
 <a href="#" class="{{ $classes }}">{{ $slot }}</a>
-{{-- text-2xs didnt work --}}
